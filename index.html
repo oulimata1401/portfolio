@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      <section id="accueil" class="accueil">
+        <div class="profil">
+          <img src="photo_cv.jpg" alt="Ma photo de profil">
+          <div>
+            <h2>À propos de moi</h2>
+            <p>Bonjour ! Je m'appelle <strong>Oulimata FAYEee</strong>. Je suis passionné par le développement web, la technologie et la création de solutions numériques. Ce portfolio vous donne un aperçu de mes compétences, de mes projets personnels ainsi que de mon parcours. Bonne visite !</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="competences">
+        <h2>Mes compétences</h2>
+        <ul>
+          <li>HTML / CSS</li>
+          <li>JavaScript (bases)</li>
+          <li>Git / GitHub</li>
+          <li>Python (débutant)</li>
+          <li>Responsive design</li>
+        </ul>
+      </section>
+
+      <section id="projets">
+        <h2>Projets personnels</h2>
+        <div class="projet">
+          <h3>Mini site CV</h3>
+          <p>Un site web simple présentant mon CV sous forme HTML/CSS.</p>
+        </div>
+        <div class="projet">
+          <h3>Calculatrice en JavaScript</h3>
+          <p>Une calculatrice simple en ligne faite avec JavaScript.</p>
+        </div>
+      </section>
+
+      <section id="formations">
+        <h2>Formations & Expériences</h2>
+        <ul>
+          <li><strong>Formation Développement Web</strong> – OpenClassrooms (2024)</li>
+          <li><strong>Baccalauréat scientifique</strong> – Lycée ABC (2022)</li>
+          <li><strong>Stage d'observation</strong> – Entreprise TechDev (2023)</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="https://formspree.io/f/xzzgldqr" method="POST">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - Mon Portfolio</p>
+    </footer>
+  </div>
+
+</body>
+</html>

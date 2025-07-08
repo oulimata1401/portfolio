@@ -1,0 +1,157 @@
+/* ---- Général ---- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  color: #333;
+}
+
+/* ---- Conteneur centré ---- */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---- Header ---- */
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center; /* ✅ Centrage du h1 */
+  padding: 30px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #003366; /* ✅ Fond différent pour les onglets */
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #0055aa;
+}
+
+/* ---- Sections style carte ---- */
+section {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  margin: 50px 0;
+}
+
+/* ---- Accueil : photo à gauche, texte à droite ---- */
+.accueil .profil {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.accueil img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #004080;
+}
+
+.accueil .profil div {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* ---- Compétences ---- */
+#competences ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* ---- Projets ---- */
+.projet {
+  background-color: #f5faff;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 5px solid #004080;
+  border-radius: 8px;
+}
+
+/* ---- Formations ---- */
+#formations ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#formations li {
+  margin-bottom: 10px;
+}
+
+/* ---- Formulaire de contact ---- */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+/* ---- Footer ---- */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #004080;
+  color: white;
+  border-top: 1px solid #ccc;
+}
